@@ -151,6 +151,8 @@ const LandingPage = () => {
                 <li><Link to="/atlas" className="text-white/80 hover:text-white">FRA Atlas</Link></li>
                 <li><Link to="/analytics" className="text-white/80 hover:text-white">Analytics</Link></li>
                 <li><Link to="/file-claim" className="text-white/80 hover:text-white">File Claim</Link></li>
+                <li><Link to="/asset-mapping" className="text-white/80 hover:text-white">Asset Mapping</Link></li>
+                <li><Link to="/decision-support" className="text-white/80 hover:text-white">Decision Support</Link></li>
               </ul>
             </div>
             <div>

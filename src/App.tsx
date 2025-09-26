@@ -8,6 +8,8 @@ import AuthPage from "./pages/AuthPage";
 import AtlasPage from "./pages/AtlasPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
 import FileClaimPage from "./pages/FileClaimPage";
+import AssetMappingPage from "./pages/AssetMappingPage";
+import DecisionSupportPage from "./pages/DecisionSupportPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +26,8 @@ const App = () => (
           <Route path="/atlas" element={<AtlasPage />} />
           <Route path="/analytics" element={<AnalyticsPage />} />
           <Route path="/file-claim" element={<FileClaimPage />} />
+          <Route path="/asset-mapping" element={<AssetMappingPage />} />
+          <Route path="/decision-support" element={<DecisionSupportPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

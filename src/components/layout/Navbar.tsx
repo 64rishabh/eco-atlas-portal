@@ -64,6 +64,26 @@ const Navbar = ({ user }: NavbarProps) => {
               >
                 File Claim
               </Link>
+              <Link
+                to="/asset-mapping"
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive("/asset-mapping")
+                    ? "bg-forest-primary text-primary-foreground"
+                    : "text-foreground hover:text-forest-primary hover:bg-forest-primary/10"
+                }`}
+              >
+                Asset Mapping
+              </Link>
+              <Link
+                to="/decision-support"
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive("/decision-support")
+                    ? "bg-forest-primary text-primary-foreground"
+                    : "text-foreground hover:text-forest-primary hover:bg-forest-primary/10"
+                }`}
+              >
+                Decision Support
+              </Link>
             </div>
           )}
 
